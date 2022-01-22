@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+
+
+a.category:link, a.product:link {
+    color: #000000;
+  }
+  
+  /* visited link */
+  a.category:visited, a.product:visited {
+    color: #000000;
+  }
+  
+  /* mouse over link */
+  a.category:hover, a.product:hover {
+    color: #F4911C;
+  }
+  
+  /* selected link */
+  a.category:active, a.product:active {
+    color: #D34D00;
+  }
+
+.yellow-bg{
+    background-color: #FFF0D3;
+}
+
+.banner, p, u{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+li, .price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.price {
+    color: #D81212;
+}
+.banner, footer {
+    background-color: #F2762E;
+    color: white;
+}
+
+li{
+    margin: .5em 0 .5em 0;
+}
+
+.card {
+    width: 80%;;
+}
+
+a img-fluid {
+    max-width: 80%
+} 
+
+.smaller-header{
+    font-size:1.8rem;
+}
+
+.smaller-text{
+    font-size: 11px;
+}
+
+footer, footer p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+footer i{
+    padding-right: .5em;
+    font-size: 1.5em;
+}
+
+footer i.bi-facebook{
+    color: #4267B2;
+}
+
+footer i.bi-instagram{
+    color: #833AB4;
+}
+
+.newsletter {
+    background-color: #1E366B;
+    color: white;
+    border-radius: 15px;
+}
+
+footer h4 {
+    color: white;
+}
+
+@media (min-width: 320px){
+    .smaller-header{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 384px) and (max-width:767px){
+    .smaller-text{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    .smaller-text{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px){
+    .smaller-text{
+        font-size: 16px;
+    }
+}
+
+.copyright{
+    font-size: 12px;
+    color: #F5F5DC
+}

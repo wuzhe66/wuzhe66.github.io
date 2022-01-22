@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+Orange : #F2762E
+brown : #734838
+*/
+
+.btn-primary{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+	background-color: #F2762E;
+	color: white;
+    border-color: #d8af34;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+	background-color: #d8af34;
+	color: #594918;
+	border-color: #F2C53D;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    color: #F2762E;
+    font-weight: bold;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    margin-bottom: 20px;
+  }
+
+.nav-link, section{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: large;
+}
+
+
